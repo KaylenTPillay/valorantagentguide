@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/agent_item_background">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/agent_item_thumbnail"
+        android:layout_width="@dimen/dimen_85"
+        android:layout_height="@dimen/dimen_85"
+        android:layout_marginStart="@dimen/dimen_16"
+        android:layout_marginTop="@dimen/dimen_16"
+        android:layout_marginBottom="@dimen/dimen_16"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/agent_item_thumbnail_barrier"
+        tools:background="@color/black"/>
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/agent_item_thumbnail_barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="end"
+        app:constraint_referenced_ids="agent_item_thumbnail" />
+
+    <TextView
+        style="@style/Agent_Item_Title_TextAppearance"
+        android:id="@+id/agent_item_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_16"
+        android:layout_marginTop="@dimen/dimen_16"
+        android:layout_marginEnd="@dimen/dimen_16"
+        android:layout_marginBottom="@dimen/dimen_8"
+        app:layout_constraintBottom_toTopOf="@id/agent_item_type"
+        app:layout_constraintEnd_toStartOf="@id/agent_item_body_barrier"
+        app:layout_constraintStart_toEndOf="@id/agent_item_thumbnail_barrier"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:text="Agent Name" />
+
+    <TextView
+        android:id="@+id/agent_item_type"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_16"
+        android:layout_marginEnd="@dimen/dimen_16"
+        android:layout_marginBottom="@dimen/dimen_16"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/agent_item_body_barrier"
+        app:layout_constraintStart_toEndOf="@id/agent_item_thumbnail_barrier"
+        app:layout_constraintTop_toBottomOf="@id/agent_item_name"
+        tools:text="Agent Type" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/agent_item_body_barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="start"
+        app:constraint_referenced_ids="agent_item_body"/>
+
+    <ImageView
+        android:id="@+id/agent_item_body"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="@dimen/dimen_16"
+        android:layout_marginBottom="@dimen/dimen_16"
+        android:layout_marginEnd="@dimen/dimen_16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/agent_item_body_barrier"
+        android:contentDescription="@string/agent_item_body_image_content_description"
+        tools:background="@color/black"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
