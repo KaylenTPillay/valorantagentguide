@@ -1,10 +1,10 @@
-package co.za.kaylen.pillay.valorantagentguide.agentitem.dbtable
+package co.za.kaylen.pillay.valorantagentguide.data.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity(tableName = "agent")
-data class EntityAgent(
+data class DTOAgent(
     @PrimaryKey(autoGenerate = true) val uid: Int = 0,
     val name: String,
     val type: String,

@@ -4,8 +4,8 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import co.za.kaylen.pillay.valorantagentguide.agentitem.dao.DAOAgent
-import co.za.kaylen.pillay.valorantagentguide.agentitem.dbtable.EntityAgent
+import co.za.kaylen.pillay.valorantagentguide.data.source.databasedao.DAOAgent
+import co.za.kaylen.pillay.valorantagentguide.data.model.DTOAgent
 import java.lang.IllegalStateException
 
 object VAGDatabase {
@@ -30,7 +30,7 @@ object VAGDatabase {
         }
     }
 
-    @Database(version = 1, entities = [EntityAgent::class], exportSchema = true)
+    @Database(version = 1, entities = [DTOAgent::class], exportSchema = true)
     abstract class InternalRoomDB : RoomDatabase() {
         abstract fun agentDAO(): DAOAgent
     }

@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ValorantAgentGuide" >
 
-        <activity android:name=".approot.AppRootActivity">
+        <activity android:name="co.za.kaylen.pillay.valorantagentguide.ui.approot.AppRootActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

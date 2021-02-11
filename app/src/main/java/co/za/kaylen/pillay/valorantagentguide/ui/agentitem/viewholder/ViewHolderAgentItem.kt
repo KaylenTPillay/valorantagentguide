@@ -1,7 +1,7 @@
-package co.za.kaylen.pillay.valorantagentguide.agentitem.viewholder
+package co.za.kaylen.pillay.valorantagentguide.ui.agentitem.viewholder
 
 import androidx.recyclerview.widget.RecyclerView
-import co.za.kaylen.pillay.valorantagentguide.agentitem.model.UIModelAgentItem
+import co.za.kaylen.pillay.valorantagentguide.ui.agentitem.model.UIModelAgentItem
 import co.za.kaylen.pillay.valorantagentguide.databinding.AgentItemLayoutBinding
 import co.za.kaylen.pillay.valorantagentguide.utils.load
 import co.za.kaylen.pillay.valorantagentguide.utils.setVisibility

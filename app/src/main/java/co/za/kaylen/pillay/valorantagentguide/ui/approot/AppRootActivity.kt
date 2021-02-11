@@ -1,4 +1,4 @@
-package co.za.kaylen.pillay.valorantagentguide.approot
+package co.za.kaylen.pillay.valorantagentguide.ui.approot
 
 import android.os.Bundle
 import androidx.activity.viewModels
@@ -6,8 +6,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import co.za.kaylen.pillay.valorantagentguide.R
-import co.za.kaylen.pillay.valorantagentguide.agentitem.adapter.AdapterAgentItem
-import co.za.kaylen.pillay.valorantagentguide.approot.viewmodel.impl.ViewModelAppRootImpl
+import co.za.kaylen.pillay.valorantagentguide.ui.agentitem.adapter.AdapterAgentItem
+import co.za.kaylen.pillay.valorantagentguide.ui.approot.viewmodel.impl.ViewModelAppRootImpl
 import co.za.kaylen.pillay.valorantagentguide.databinding.AppRootLayoutBinding
 import co.za.kaylen.pillay.valorantagentguide.utils.itemdecoration.ItemDecorationMaxWidth
 import co.za.kaylen.pillay.valorantagentguide.utils.itemdecoration.ItemDecorationVerticalSpacing
