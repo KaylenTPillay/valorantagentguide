@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="grey_100">#EEEEEE</color>
     <color name="grey_200">#F5F5F5</color>
     <color name="grey_600">#757575</color>
+    <color name="grey_700">#616161</color>
+    <color name="grey_800">#424242</color>
 </resources>
