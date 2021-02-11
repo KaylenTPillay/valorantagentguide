@@ -1,4 +1,4 @@
-package co.za.kaylen.pillay.valorantagentguide.agentitem.model
+package co.za.kaylen.pillay.valorantagentguide.ui.agentitem.model
 
 data class UIModelAgentItem(
     val name: String = String(),
