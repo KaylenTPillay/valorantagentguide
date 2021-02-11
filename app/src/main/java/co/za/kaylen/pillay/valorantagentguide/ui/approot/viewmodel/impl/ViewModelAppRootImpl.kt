@@ -4,7 +4,6 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import co.za.kaylen.pillay.valorantagentguide.ui.agentitem.model.UIModelAgentItem
-import co.za.kaylen.pillay.valorantagentguide.data.repository.impl.RepositoryAgentsImpl
 import co.za.kaylen.pillay.valorantagentguide.domain.usecase.factory.UseCaseFactory
 import co.za.kaylen.pillay.valorantagentguide.ui.agentitem.model.transformer.transformUIModel
 import co.za.kaylen.pillay.valorantagentguide.ui.approot.viewmodel.ViewModelAppRoot
