@@ -1,12 +1,12 @@
-package co.za.kaylen.pillay.valorantagentguide.agentitem.adapter
+package co.za.kaylen.pillay.valorantagentguide.ui.agentitem.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import co.za.kaylen.pillay.valorantagentguide.agentitem.viewholder.ViewHolderAgentItem
-import co.za.kaylen.pillay.valorantagentguide.agentitem.model.UIModelAgentItem
+import co.za.kaylen.pillay.valorantagentguide.ui.agentitem.viewholder.ViewHolderAgentItem
+import co.za.kaylen.pillay.valorantagentguide.ui.agentitem.model.UIModelAgentItem
 import co.za.kaylen.pillay.valorantagentguide.databinding.AgentItemLayoutBinding
 
 class AdapterAgentItem : RecyclerView.Adapter<ViewHolderAgentItem>() {
