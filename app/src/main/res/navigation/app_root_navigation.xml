@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_root_navigation"
+    app:startDestination="@id/viewAgentOverviewFragment">
+    <fragment
+        android:id="@+id/viewAgentOverviewFragment"
+        android:name="co.za.kaylen.pillay.valorantagentguide.ui.agentoverview.ViewAgentOverviewFragment"
+        android:label="ViewAgentOverviewFragment" />
+</navigation>
