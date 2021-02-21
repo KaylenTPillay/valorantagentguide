@@ -1,2 +1,3 @@
+include ':navigator'
 include ':app'
 rootProject.name = "Valorant Agent Guide"
