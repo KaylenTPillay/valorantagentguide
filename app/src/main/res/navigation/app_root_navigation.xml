@@ -7,4 +7,8 @@
         android:id="@+id/viewAgentOverviewFragment"
         android:name="co.za.kaylen.pillay.valorantagentguide.ui.agentoverview.ViewAgentOverviewFragment"
         android:label="ViewAgentOverviewFragment" />
+    <fragment
+        android:id="@+id/viewAgentShowCaseFragment"
+        android:name="co.za.kaylen.pillay.valorantagentguide.ui.agentshowcase.ViewAgentShowCaseFragment"
+        android:label="ViewAgentShowCaseFragment" />
 </navigation>

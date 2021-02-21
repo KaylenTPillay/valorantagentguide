@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="dimen_600">600dp</dimen>
+    <dimen name="dimen_300">300dp</dimen>
+    <dimen name="dimen_250">250dp</dimen>
     <dimen name="dimen_85">85dp</dimen>
     <dimen name="dimen_16">16dp</dimen>
     <dimen name="dimen_8">8dp</dimen>
     <dimen name="dimen_2">2dp</dimen>
+
+    <dimen name="textSize_20">20sp</dimen>
 </resources>

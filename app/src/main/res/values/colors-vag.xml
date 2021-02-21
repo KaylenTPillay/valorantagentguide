@@ -3,5 +3,8 @@
     <color name="agent_item_title_color">@color/grey_600</color>
     <color name="agent_item_type_color">@color/grey_600</color>
     <color name="agent_item_background">@color/white</color>
+
+    <color name="agent_showcase_title_color">@color/white</color>
+
     <color name="layout_background">@color/grey_200</color>
 </resources>

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Valorant Agent Guide</string>
     <string name="agent_item_body_image_content_description">"Agent item body "</string>
+    <string name="agent_showcase_banner_content_description">Agent showcase banner</string>
 </resources>
